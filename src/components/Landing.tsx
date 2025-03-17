@@ -14,8 +14,10 @@ import heat_1 from "../assets/heat_1.jpg"
 
 const Landing = () => {
   return (
-    <div className='w-[100vw] h-auto flex justify-center items-center overflow-x-hidden mt-[10px]'>
-      <div className='w-11/12 h-[600px] flex justify-center items-center rounded-[30px] overflow-hidden relative'>
+    <div className='w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden mt-[10px]'>
+
+      {/* Landing page */}
+      <div className='w-11/12 h-[450px] sm:h-[600px] flex justify-center items-center rounded-[30px] overflow-hidden relative'>
 
         <div className='absolute top-0 right-0 left-0'>
           <Carousel
@@ -40,10 +42,15 @@ const Landing = () => {
         </div>
         
         <div className='w-full h-full bg-[#000] z-50 bg-opacity-50 flex justify-center items-center px-[40px]'>
-            <span className='text-[#fff] text-[64px] font-medium'>Welcome to Ridge Top</span>
+          <span className='text-[#fff] text-[64px] font-medium'>Welcome to Ridge Top</span>
         </div>
       </div>
-      
+
+      {/* feature page */}
+      <div className='w-full flex flex-col justify-center items-center'>
+        
+      </div>
+
     </div>
   )
 }

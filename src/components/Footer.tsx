@@ -5,8 +5,8 @@ import logo from "../assets/logo.jpg"
 const Footer = () => {
   return (
     <div className='w-[100vw] h-auto flex flex-col justify-center items-center text-[#fff]'>
-      <div className='w-full h-auto flex flex-wrap md:flex-row justify-start md:justify-around items-center bg-[#1A1B1B] px-[64px] py-[36px] mt-[20px] gap-[50px]'>
-        <div className='w-fit flex justify-center items-center rounded-full overflow-hidden'>
+      <div className='w-full h-auto flex flex-col sm:flex-row justify-center sm:justify-around items-start sm:items-center bg-[#1A1B1B] px-[24px] sm:px-[64px] py-[36px] mt-[20px] gap-[30px] sm:gap-[50px]'>
+        <div className='w-fit flex self-center smjustify-center items-center rounded-[10px] sm:rounded-full overflow-hidden'>
           <img src={logo} alt="" className='w-[200px] scale-[1.5]'/>
         </div>
         <div className='w-fit flex flex-col justify-center items-start gap-[30px]'>
@@ -36,7 +36,7 @@ const Footer = () => {
           <NavLink to={"/contactus"} className={"text-[#a6a6a6] font-normal hover:text-primary"}>Contact Us</NavLink>
         </div>
       </div>
-      <div className='w-full text-center text-[14px] sm:text-[16px] font-light flex justify-center items-center px-[16px] sm:px-[64px] py-[16px] sm:py-[18px] bg-[#000]'>
+      <div className='w-full text-center text-[14px] sm:text-[16px] font-light flex justify-center items-center px-[24px] sm:px-[64px] py-[16px] sm:py-[18px] bg-[#000]'>
         © Copyright2025 RidgeTop Heating and Cooling Solutions All Rights Reserved
       </div> 
     </div>
