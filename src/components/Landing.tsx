@@ -11,6 +11,8 @@ import cold_1 from "../assets/cold_1.jpg"
 import cold_2 from "../assets/cold_2.jpg"
 import heat_1 from "../assets/heat_1.jpg"
 import Card from './ui/Card'
+import aboutus from "../assets/aboutus.jpg"
+import { MarqueeDemo } from './ui/MarqueeDemo'
 
 
 const Landing = () => {
@@ -49,20 +51,25 @@ const Landing = () => {
 
       {/* aboutus page */}
 
-      <div className='w-full h-auto flex justify-center items-center px-[24px] sm:px-[64px] py-[64px] sm:py-[96px] bg-gradient-to-r from-[#e6faff]'>
-        <div className=' basis-1/2 flex flex-col justify-center items-start'>
+      <div className='w-full h-auto flex flex-col md:flex-row justify-center items-center px-[24px] sm:px-[64px] py-[64px] sm:py-[96px] bg-gradient-to-r from-[#d4f6ff] gap-[40px]'>
+        <div className=' basis-1/2 flex flex-col justify-center items-start gap-[20px]'>
           <span className='text-[42px] font-semibold'>About us</span>
-          <p></p>
+          <p className='text-[15px] sm:text-[16px]'>
+            Providing all aspects of mechanical plumbing, heating, and air conditioning for residential and commercial properties. From installations to repairs and maintenance, we deliver reliable, high-quality service to keep your systems running efficiently. Customer satisfaction and expert workmanship are our top priorities.
+          </p>
+          <p className='text-[15px] sm:text-[16px]'>
+            Customer satisfaction and expert workmanship are at the heart of everything we do. We understand the importance of a comfortable and functional living or working environment, which is why we prioritize clear communication, timely service, and attention to detail in every project. Our experienced technicians are fully licensed and trained to handle any challenge, ensuring your systems are not only running efficiently but also extending their lifespan.
+          </p>
         </div>
-        <div className='basis-1/2 flex justify-center items-center'>
-            <img src="" alt="" />
+        <div className='basis-1/2 flex justify-center items-center overflow-hidden rounded-[20px]'>
+            <img src={aboutus} alt=""  className='h-[350px] max-h-[400px] rounded-[20px] object-cover'/>
         </div>
       </div>
 
       {/* feature page */}
       <div className='w-full h-auto flex flex-col justify-center items-center px-[24px] sm:px-[64px] py-[64px] sm:py-[96px]'>
         <div className='w-full h-auto flex flex-col justify-center items-center gap-[8px] mb-[40px]'>
-            <span className='text-[24px] sm:text-[32px] font-semibold'>Our Core Values</span>
+            <span className='text-[24px] sm:text-[32px] font-semibold'>Why Choose Us</span>
             <span className='text-wrap text-[#525252] text-center text-[16px] sm:text-[20px]'>The principles that guide everything we do</span>
         </div>
         <div className='w-full h-auto flex flex-wrap justify-center items-center gap-[30px]'>
@@ -85,7 +92,16 @@ const Landing = () => {
             logoBg='#e6faff'
           />
         </div>
-        
+      </div>
+
+      {/* testimonials */}
+
+      <div className='w-full h-auto flex flex-col justify-center items-center px-[24px] sm:px-[64px] py-[64px] sm:py-[96px] bg-black text-[#fff] gap-[40px]'>
+        <div className='w-full flex flex-col justify-center items-center gap-[10px]'>
+          <span className='text-[24px] sm:text-[42px] font-semibold'>Testimonials</span>
+          <span className='text-wrap text-[#c1c1c1] text-center text-[16px] sm:text-[20px]'>See what our client says about us</span>
+        </div>
+        <MarqueeDemo/>
       </div>
 
     </div>
