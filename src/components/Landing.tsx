@@ -98,8 +98,8 @@ const Landing = () => {
 
       <div className='w-full h-auto flex flex-col justify-center items-center px-[24px] sm:px-[64px] py-[64px] sm:py-[96px] bg-black text-[#fff] gap-[40px]'>
         <div className='w-full flex flex-col justify-center items-center gap-[10px]'>
-          <span className='text-[24px] sm:text-[42px] font-semibold'>Testimonials</span>
-          <span className='text-wrap text-[#c1c1c1] text-center text-[16px] sm:text-[20px]'>See what our client says about us</span>
+          <span className='text-[24px] sm:text-[42px] font-semibold'>Our Gallery</span>
+          <span className='text-wrap text-[#c1c1c1] text-center text-[16px] sm:text-[20px]'>We aim to make your life better</span>
         </div>
         <MarqueeDemo/>
       </div>
