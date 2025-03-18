@@ -6,6 +6,7 @@ import Landing from './components/Landing'
 import Footer from './components/Footer'
 import ContactUs from './components/ContactUs'
 import NotFound from './components/NotFound'
+import Service from './components/Service'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Landing/>}/>
             <Route path='/contactus' element={<ContactUs/>}/>
+            <Route path='/service' element={<Service/>}/>
             <Route path="*" element={<NotFound/>} />
           </Routes>
           <Footer/>
