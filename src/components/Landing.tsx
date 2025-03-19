@@ -12,7 +12,7 @@ import {
 import Card from "./ui/Card";
 import { MarqueeDemo } from "./ui/MarqueeDemo";
 import Reviews from "./ui/Reviews";
-import { InteractiveHoverButton } from "./ui/specialButton";
+import { InteractiveHoverButton } from "./ui/SpecialButton";
 
 const Landing = () => {
   const link =

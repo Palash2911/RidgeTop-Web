@@ -56,7 +56,7 @@ const ContactUs : React.FC = () => {
     <div className='w-screen h-auto flex flex-col md:flex-row justify-center items-center relative px-[24px] sm:px-[64px] py-[32px] sm:py-[64px] overflow-hidden gap-[20px] '>
         <div className='basis-1/2 flex flex-col justify-center items-start h-auto w-full gap-[20px] self-start mt-[20px]'>
           <h1 className='w-fit h-auto text-[26px] sm:text-[28px] md:text-[32px] font-medium'>Let us know how we can help </h1>
-          <span className='w-fit h-auto text-[15px] sm:text-[15px]'>We’re here to help and answer any question you might have, We look forward to hearing from you! Please fill out the form, or us the contact information bellow .</span>
+          <span className='w-fit h-auto text-[15px] sm:text-[15px] md:pr-[100px]'>We’re here to help and answer any question you might have, We look forward to hearing from you! Please fill out the form, or us the contact information bellow .</span>
           <div>
             <ul className="mt-[10px] flex flex-wrap gap-x-10 gap-y-6 items-center">
                 {
