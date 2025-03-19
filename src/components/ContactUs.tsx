@@ -28,7 +28,7 @@ const ContactUs: React.FC = () => {
           />
         </svg>
       ),
-      contact: "ridgetop@gmail.com",
+      contact: "Sales@ridgetophvac.com",
     },
     {
       icon: (
@@ -97,7 +97,7 @@ const ContactUs: React.FC = () => {
         <div className="flex justify-start lg:justify-center items-center w-fit gap-[30px] flex-wrap sm:flex-row">
           <NavLink
             target="_blank"
-            to={"/"}
+            to={"https://www.instagram.com/ridgetop_heating_and_cooling?igsh=MXA4bHQ4YmR0MmpvYw== "}
             className={
               "text-[#a6a6a6] font-normal hover:text-primary2 flex justify-start items-center gap-[8px]"
             }
@@ -122,50 +122,15 @@ const ContactUs: React.FC = () => {
           </NavLink>
           <NavLink
             target="_blank"
-            to={"/service"}
+            to={"https://wa.me/918927329580"}
             className={
-              "text-[#a6a6a6] font-normal hover:text-primary flex justify-start items-center gap-[8px]"
+              "text-[#a6a6a6] font-normal hover:text-[#2eb427] flex justify-start items-center gap-[8px]"
             }
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              className="lucide lucide-facebook"
-            >
-              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-            </svg>
-            <span className="text-[#000] hover:text-primary">Facebook</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-message-circle-more"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/></svg>
+            <span className="text-[#000] hover:text-[#2eb427] ">Whatsapp</span>
           </NavLink>
-          <NavLink
-            target="_blank"
-            to={"/contactus"}
-            className={
-              "text-[#a6a6a6] font-normal hover:text-primary flex justify-start items-center gap-[8px]"
-            }
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              className="lucide lucide-twitter"
-            >
-              <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-            </svg>
-            <span className="text-[#000] hover:text-primary">Twitter</span>
-          </NavLink>
+          
         </div>
       </div>
       <div className="basis-1/2 w-full h-auto relative flex justify-start items-start">

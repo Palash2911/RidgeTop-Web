@@ -10,9 +10,9 @@ import {
   CarouselItem,
 } from "../components/ui/Carousal";
 import Card from "./ui/Card";
-import { MarqueeDemo } from "./ui/MarqueeDemo";
+import Gallery from "./ui/Gallery";
 import Reviews from "./ui/Reviews";
-import { InteractiveHoverButton } from "./ui/specialButton";
+import { InteractiveHoverButton } from "./ui/SpecialButton";
 
 const Landing = () => {
   const link =
@@ -194,7 +194,7 @@ const Landing = () => {
             We aim to make your life better
           </span>
         </div>
-        <MarqueeDemo />
+        <Gallery />
       </div>
 
       {/* Google reviews */}
@@ -279,8 +279,8 @@ const Landing = () => {
           </div>
 
           <div className="basis-2/3 flex justify-center items-center overflow-hidden relative">
-            <div className="absolute hidden lg:flex left-[-30px] w-[100px] h-[300px] z-10 bg-white blur-[10px]"></div>
-            <div className="absolute hidden lg:flex right-[-30px] w-[100px] h-[300px] z-10 bg-white blur-[10px]"></div>
+            <div className="absolute hidden lg:flex left-[-30px] w-[100px] h-[700px] z-10 bg-white blur-[10px]"></div>
+            <div className="absolute hidden lg:flex right-[-30px] w-[100px] h-[700px] z-10 bg-white blur-[10px]"></div>
             <Reviews />
           </div>
         </div>

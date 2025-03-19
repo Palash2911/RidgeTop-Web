@@ -175,7 +175,7 @@ const Header = () => {
             </svg>
             <span className="flex flex-col justify-center items-start gap-[2px]">
               <span className="text-[#949494] text-[12px] ml-[2px]">Email</span>
-              <span className="text-nowrap">ridgetop@gmail.com</span>
+              <span className="text-nowrap">Sales@ridgetophvac.com</span>
             </span>
           </div>
         </div>
