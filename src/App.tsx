@@ -1,32 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import { BrowserRouter, Routes ,Route} from 'react-router'
-import Header from './components/Header'
-import Landing from './components/Landing'
-import Footer from './components/Footer'
-import ContactUs from './components/ContactUs'
-import NotFound from './components/NotFound'
-import Service from './components/Service'
+import { BrowserRouter, Route, Routes } from "react-router";
+import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Landing from "./components/Landing";
+import NotFound from "./components/NotFound";
+import Service from "./components/Service";
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='font-poppins font-normal h-auto overflow-x-hidden flex flex-col justify-center items-center'>
+      <div className="font-poppins font-normal h-auto overflow-x-hidden flex flex-col justify-center items-center">
         <BrowserRouter>
-          <Header/>
+          <Header />
           <Routes>
-            <Route path='/' element={<Landing/>}/>
-            <Route path='/contactus' element={<ContactUs/>}/>
-            <Route path='/service' element={<Service/>}/>
-            <Route path="*" element={<NotFound/>} />
+            <Route path="/" element={<Landing />} />
+            <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/service" element={<Service />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </BrowserRouter>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
