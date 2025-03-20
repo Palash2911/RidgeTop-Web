@@ -1,15 +1,15 @@
+import daikin from "../assets/Daikin.png";
+import ducted from "../assets/Ducted_Air_Conditioning.jpg";
+import evaporate from "../assets/Evaporative_Cooling_service_image.jpg";
+import gas from "../assets/Gas_Ducted_Heating.jpg";
+import Hisense from "../assets/Hisense.jpg";
+import hotwater from "../assets/Hot_service_and_boiler.jpg";
+import mistubishi from "../assets/mitsubishi.jpg";
+import panasonic from "../assets/Panasonic.webp";
+import product1 from "../assets/product_6.png";
+import maintain from "../assets/Service_and_repair.jpg";
+import split from "../assets/Split_System.jpg";
 import ServiceCard from "./ui/ServiceCard";
-import evaporate from "../assets/Evaporative_Cooling_service_image.jpg"
-import ducted from "../assets/Ducted_Air_Conditioning.jpg"
-import gas from "../assets/Gas_Ducted_Heating.jpg"
-import split from "../assets/Split_System.jpg"
-import hotwater from "../assets/Hot_service_and_boiler.jpg"
-import maintain from "../assets/Service_and_repair.jpg"
-import daikin from "../assets/Daikin.png"
-import Hisense from "../assets/Hisense.jpg"
-import mistubishi from "../assets/mitsubishi.jpg"
-import mistubishiH from "../assets/mitsubishi-heavy.jpg"
-import panasonic from "../assets/Panasonic.webp"
 
 const Service = () => {
   return (
@@ -65,18 +65,20 @@ const Service = () => {
           Products
         </span>
         <span className="text-wrap text-[#525252] text-center text-[16px] sm:text-[20px]">
-          These are the brands whose products we use and recommend to our customers 
+          These are the brands whose products we use and recommend to our
+          customers
         </span>
         <div className="w-full h-auto flex flex-wrap justify-center items-center relative mt-[50px] gap-[50px]">
-          <img src={daikin} alt="" className="w-[200px] object-cover"/>
-          <img src={panasonic} alt="" className="w-[200px] object-cover"/>
-          <img src={mistubishi} alt="" className="w-[200px] object-cover"/>
-          <img src={mistubishiH} alt="" className="w-[200px] object-cover"/>
-          <img src={Hisense} alt="" className="w-[200px] object-cover"/>
+          <img src={daikin} alt="" className="w-[200px] object-cover" />
+          <img src={panasonic} alt="" className="w-[200px] object-cover" />
+          <img src={mistubishi} alt="" className="w-[200px] object-cover" />
+          {/* <img src={mistubishiH} alt="" className="w-[200px] object-cover" /> */}
+          <img src={Hisense} alt="" className="w-[200px] object-cover" />
+          <img src={product1} alt="" className="w-[200px] object-cover" />
         </div>
       </div>
     </div>
-);
+  );
 };
 
 export default Service;

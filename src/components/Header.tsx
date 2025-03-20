@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <div className="w-screen flex flex-col justify-center items-center">
-      <div className="w-full hidden h-auto px-[48px] py-[16px] bg-[#000] sm:flex sm:justify-start sm:items-center sm:gap-[32px]">
+      <div className="w-full hidden h-auto px-[48px] py-[21px] bg-[#000] sm:flex sm:justify-start sm:items-center sm:gap-[32px]">
         <NavLink
           to={"/"}
           className={({ isActive }) =>
@@ -123,9 +123,9 @@ const Header = () => {
         )}
       </div>
 
-      <div className="w-full h-auto px-[24px] sm:px-[64px] py-[12px] bg-[#fff] flex flex-col md:flex-row justify-between items-center drop-shadow-md gap-[16px] md:gap-[30px] lg:gap-[50px]">
+      <div className="w-full h-auto px-[21px] sm:px-[64px] py-[12px] bg-[#fff] flex flex-col md:flex-row justify-between items-center drop-shadow-md gap-[16px] md:gap-[30px] lg:gap-[50px]">
         <div className="flex flex-col justify-center items-center md:items-start w-fit h-auto gap-[5px]">
-          <div className="text-[24px] font-semibold">RidgeTop</div>
+          <div className="text-[24px] font-semibold">Ridgetop</div>
           <div className="text-[16px] text-nowrap">
             <span className="text-primary2">Heating </span>
             and <span className="text-primary">Cooling </span>

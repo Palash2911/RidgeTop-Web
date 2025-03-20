@@ -1,8 +1,8 @@
 // import React from 'react'
 import Autoplay from "embla-carousel-autoplay";
 import aboutus from "../assets/aboutus.jpeg";
+import cold_2 from "../assets/cold2.jpeg";
 import cold_1 from "../assets/cold_1.jpg";
-import cold_2 from "../assets/cold_2.jpg";
 import heat_1 from "../assets/heat_1.jpeg";
 import {
   Carousel,
@@ -54,7 +54,7 @@ const Landing = () => {
                 <img
                   src={cold_2}
                   alt=""
-                  className="w-full h-[600px] object-cover object-top"
+                  className="w-full h-[600px] object-contain object-top"
                 />
               </CarouselItem>
             </CarouselContent>
@@ -63,7 +63,7 @@ const Landing = () => {
 
         <div className="w-full h-full bg-[#000] z-50 bg-opacity-50 flex justify-center items-center px-[40px]">
           <span className="text-[#fff] text-[54px] sm:text-[64px] font-medium">
-            Welcome to Ridge Top
+            Welcome to Ridgetop
           </span>
         </div>
       </div>
@@ -114,7 +114,7 @@ const Landing = () => {
         <div className="w-full h-auto flex flex-wrap justify-center items-center gap-[30px]">
           <Card
             title="Quality"
-            content="We never compromise on the quality of our work , using only the best materials and equipment for every job."
+            content="We never compromise on the quality of our work, using the best Australian materials and equipment whenever we can."
             logo={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@ const Landing = () => {
           />
           <Card
             title="Reliability"
-            content="When we make a promise , we keep it. Our customers count on us to be there when they need us most."
+            content="When we make a promise , we keep it. Customer service is our top priority, and we strive to never take shortcuts."
             logo={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +158,7 @@ const Landing = () => {
           />
           <Card
             title="Expertise"
-            content="Our team consists of certified professionals with years of experience in heating and cooling systems."
+            content="Our team consists of certified professionals with over 10+ years of experience in the trade."
             logo={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
