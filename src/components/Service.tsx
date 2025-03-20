@@ -5,6 +5,11 @@ import gas from "../assets/Gas_Ducted_Heating.jpg"
 import split from "../assets/Split_System.jpg"
 import hotwater from "../assets/Hot_service_and_boiler.jpg"
 import maintain from "../assets/Service_and_repair.jpg"
+import daikin from "../assets/Daikin.png"
+import Hisense from "../assets/Hisense.jpg"
+import mistubishi from "../assets/mitsubishi.jpg"
+import mistubishiH from "../assets/mitsubishi-heavy.jpg"
+import panasonic from "../assets/Panasonic.webp"
 
 const Service = () => {
   return (
@@ -57,11 +62,18 @@ const Service = () => {
       </div>
       <div className="w-full h-auto flex flex-col justify-center items-center relative overflow-hidden mt-[80px]">
         <span className="text-[28px] sm:text-[42px] font-semibold">
-          Our Products
+          Products
         </span>
         <span className="text-wrap text-[#525252] text-center text-[16px] sm:text-[20px]">
-          We provide a varitey of heating and cooling solutions
+          These are the brands whose products we use and recommend to our customers 
         </span>
+        <div className="w-full h-auto flex flex-wrap justify-center items-center relative mt-[50px] gap-[50px]">
+          <img src={daikin} alt="" className="w-[200px] object-cover"/>
+          <img src={panasonic} alt="" className="w-[200px] object-cover"/>
+          <img src={mistubishi} alt="" className="w-[200px] object-cover"/>
+          <img src={mistubishiH} alt="" className="w-[200px] object-cover"/>
+          <img src={Hisense} alt="" className="w-[200px] object-cover"/>
+        </div>
       </div>
     </div>
 );
