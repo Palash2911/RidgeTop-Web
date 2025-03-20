@@ -1,30 +1,46 @@
+import img1 from "../../assets/gallery/img1.jpeg";
+import img2 from "../../assets/gallery/img2.jpeg";
+import img3 from "../../assets/gallery/img3.jpeg";
+import img4 from "../../assets/gallery/img4.jpeg";
+import img5 from "../../assets/gallery/img5.jpeg";
+import img6 from "../../assets/gallery/img6.jpeg";
+import img7 from "../../assets/gallery/img7.jpeg";
+import img8 from "../../assets/gallery/img8.jpeg";
 import { cn } from "../../lib/utils";
 import { Marquee } from "./Marquee";
 
 const reviews = [
   {
     id: 1,
-    img: "https://avatar.vercel.sh/jack",
+    img: img1,
   },
   {
     id: 2,
-    img: "https://avatar.vercel.sh/jill",
+    img: img2,
   },
   {
     id: 3,
-    img: "https://avatar.vercel.sh/john",
+    img: img3,
   },
   {
     id: 4,
-    img: "https://avatar.vercel.sh/jane",
+    img: img4,
   },
   {
     id: 5,
-    img: "https://avatar.vercel.sh/jenny",
+    img: img5,
   },
   {
     id: 6,
-    img: "https://avatar.vercel.sh/james",
+    img: img6,
+  },
+  {
+    id: 7,
+    img: img7,
+  },
+  {
+    id: 8,
+    img: img8,
   },
 ];
 

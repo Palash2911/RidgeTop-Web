@@ -47,7 +47,7 @@ const ContactUs: React.FC = () => {
           />
         </svg>
       ),
-      contact: "+91 1234567890",
+      contact: "+61 499 475 590",
     },
   ];
 
@@ -97,7 +97,9 @@ const ContactUs: React.FC = () => {
         <div className="flex justify-start lg:justify-center items-center w-fit gap-[30px] flex-wrap sm:flex-row">
           <NavLink
             target="_blank"
-            to={"https://www.instagram.com/ridgetop_heating_and_cooling?igsh=MXA4bHQ4YmR0MmpvYw== "}
+            to={
+              "https://www.instagram.com/ridgetop_heating_and_cooling?igsh=MXA4bHQ4YmR0MmpvYw== "
+            }
             className={
               "text-[#a6a6a6] font-normal hover:text-primary2 flex justify-start items-center gap-[8px]"
             }
@@ -122,15 +124,30 @@ const ContactUs: React.FC = () => {
           </NavLink>
           <NavLink
             target="_blank"
-            to={"https://wa.me/918927329580"}
+            to={"https://wa.me/61499475590"}
             className={
               "text-[#a6a6a6] font-normal hover:text-[#2eb427] flex justify-start items-center gap-[8px]"
             }
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-message-circle-more"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/></svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="lucide lucide-message-circle-more"
+            >
+              <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+              <path d="M8 12h.01" />
+              <path d="M12 12h.01" />
+              <path d="M16 12h.01" />
+            </svg>
             <span className="text-[#000] hover:text-[#2eb427] ">Whatsapp</span>
           </NavLink>
-          
         </div>
       </div>
       <div className="basis-1/2 w-full h-auto relative flex justify-start items-start">

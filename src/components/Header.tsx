@@ -154,7 +154,7 @@ const Header = () => {
               <span className="text-[#949494] text-[12px] ml-[7px]">
                 Toll Free
               </span>
-              <span className="text-nowrap">+91 1234567890</span>
+              <span className="text-nowrap">+61 499 475 590</span>
             </span>
           </div>
           <div className="flex justify-center items-center gap-[10px]">

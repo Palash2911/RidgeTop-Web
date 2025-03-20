@@ -1,9 +1,9 @@
 // import React from 'react'
 import Autoplay from "embla-carousel-autoplay";
-import aboutus from "../assets/aboutus.jpg";
+import aboutus from "../assets/aboutus.jpeg";
 import cold_1 from "../assets/cold_1.jpg";
 import cold_2 from "../assets/cold_2.jpg";
-import heat_1 from "../assets/heat_1.jpg";
+import heat_1 from "../assets/heat_1.jpeg";
 import {
   Carousel,
   CarouselContent,
@@ -12,7 +12,7 @@ import {
 import Card from "./ui/Card";
 import Gallery from "./ui/Gallery";
 import Reviews from "./ui/Reviews";
-import { InteractiveHoverButton } from "./ui/SpecialButton";
+import { InteractiveHoverButton } from "./ui/specialButton";
 
 const Landing = () => {
   const link =
@@ -26,12 +26,12 @@ const Landing = () => {
   return (
     <div className="w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden mt-[10px]">
       {/* Landing page */}
-      <div className="w-11/12 h-[450px] sm:h-[600px] flex justify-center items-center rounded-[30px] overflow-hidden relative mb-[70px]">
+      <div className="w-11/12 h-[450px] sm:h-[600px] mt-9 flex justify-center items-center rounded-[30px] overflow-hidden relative mb-[70px]">
         <div className="absolute top-0 right-0 left-0">
           <Carousel
             plugins={[
               Autoplay({
-                delay: 2000,
+                delay: 3000,
               }),
             ]}
           >
@@ -47,7 +47,7 @@ const Landing = () => {
                 <img
                   src={heat_1}
                   alt=""
-                  className="w-full h-[600px] object-cover object-top"
+                  className="w-full h-[600px] object-contain object-top"
                 />
               </CarouselItem>
               <CarouselItem>
@@ -96,7 +96,7 @@ const Landing = () => {
           <img
             src={aboutus}
             alt=""
-            className="h-[350px] max-h-[400px] rounded-[20px] object-cover"
+            className="h-[430px] max-h-[430px] rounded-[20px] object-cover"
           />
         </div>
       </div>
