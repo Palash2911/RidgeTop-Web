@@ -31,7 +31,7 @@ const Landing = () => {
           <Carousel
             plugins={[
               Autoplay({
-                delay: 3000,
+                delay: 2000,
               }),
             ]}
           >
