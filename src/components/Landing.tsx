@@ -12,7 +12,7 @@ import {
 import Card from "./ui/Card";
 import Gallery from "./ui/Gallery";
 import Reviews from "./ui/Reviews";
-import { InteractiveHoverButton } from "./ui/specialButton";
+import { InteractiveHoverButton } from "./ui/SpecialButton";
 
 const Landing = () => {
   const link =
@@ -27,7 +27,7 @@ const Landing = () => {
     <div className="w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden mt-[10px]">
       {/* Landing page */}
       <div className="w-11/12 h-[450px] sm:h-[600px] mt-9 flex justify-center items-center rounded-[30px] overflow-hidden relative mb-[70px]">
-        <div className="absolute top-0 right-0 left-0">
+        <div className="absolute top-0 right-0 left-0 flex justify-center items-center">
           <Carousel
             plugins={[
               Autoplay({
@@ -47,14 +47,14 @@ const Landing = () => {
                 <img
                   src={heat_1}
                   alt=""
-                  className="w-full h-[600px] object-contain object-top"
+                  className="w-full h-[600px] object-cover object-center"
                 />
               </CarouselItem>
               <CarouselItem>
                 <img
                   src={cold_2}
                   alt=""
-                  className="w-full h-[600px] object-contain object-top"
+                  className="w-full h-[600px] object-cover object-center"
                 />
               </CarouselItem>
             </CarouselContent>
