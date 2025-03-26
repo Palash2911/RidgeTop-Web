@@ -151,13 +151,13 @@ const ContactUs: React.FC = () => {
         </div>
       </div>
       <div className="basis-1/2 w-full h-auto relative flex justify-start items-start">
-        <iframe
-          data-tally-src="https://tally.so/embed/mYkbjd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-          loading="lazy"
-          width="100%"
-          height="727"
-          title="Contact Us"
-        ></iframe>
+          <iframe 
+            data-tally-src="https://tally.so/embed/mVN0QJ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+            loading="lazy" 
+            width="100%" 
+            height="727"
+            title="Contact us">
+          </iframe>
       </div>
     </div>
   );
