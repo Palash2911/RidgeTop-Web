@@ -84,10 +84,9 @@ const ContactUs: React.FC = () => {
         <div>
           <ul className="mt-[10px] flex flex-wrap gap-x-10 gap-y-6 items-center">
             {contactMethods.map((item, idx) => {
-              // detect email vs phone by looking at the string
               const isEmail = item.contact.includes("@");
               const href = isEmail
-                ? `https://mail.google.com/mail/?view=cm&fs=1&to=${item.contact}`
+                ? `mailto:Sales@ridgetophvac.com`
                 : `tel:${item.contact.replace(/\s+/g, "")}`;
 
               return (

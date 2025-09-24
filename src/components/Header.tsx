@@ -181,7 +181,7 @@ const Header = () => {
             <span className="flex flex-col justify-center items-start gap-[2px]">
               <span className="text-[#949494] text-[12px] ml-[2px]">Email</span>
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=Sales@ridgetophvac.com"
+                href="mailto:Sales@ridgetophvac.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-nowrap hover:text-primary"

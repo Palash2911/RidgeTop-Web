@@ -56,7 +56,7 @@ const Footer = () => {
               <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10" />
             </svg>
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=Sales@ridgetophvac.com"
+              href="mailto:Sales@ridgetophvac.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-nowrap hover:text-primary font-normal"
