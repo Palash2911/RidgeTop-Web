@@ -83,15 +83,30 @@ const ContactUs: React.FC = () => {
         </span>
         <div>
           <ul className="mt-[10px] flex flex-wrap gap-x-10 gap-y-6 items-center">
-            {contactMethods.map((item, idx) => (
-              <li
-                key={idx}
-                className="flex items-center gap-x-3 text-[15px] sm:text-[16px]"
-              >
-                <div className="flex-none text-gray-400">{item.icon}</div>
-                <p>{item.contact}</p>
-              </li>
-            ))}
+            {contactMethods.map((item, idx) => {
+              // detect email vs phone by looking at the string
+              const isEmail = item.contact.includes("@");
+              const href = isEmail
+                ? `https://mail.google.com/mail/?view=cm&fs=1&to=${item.contact}`
+                : `tel:${item.contact.replace(/\s+/g, "")}`;
+
+              return (
+                <li
+                  key={idx}
+                  className="flex items-center gap-x-3 text-[15px] sm:text-[16px]"
+                >
+                  <div className="flex-none text-gray-400">{item.icon}</div>
+                  <a
+                    href={href}
+                    className="hover:text-primary2 text-[#000]"
+                    target={isEmail ? "_blank" : undefined}
+                    rel={isEmail ? "noopener noreferrer" : undefined}
+                  >
+                    {item.contact}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </div>
         <div className="flex justify-start lg:justify-center items-center w-fit gap-[30px] flex-wrap sm:flex-row">
@@ -151,13 +166,13 @@ const ContactUs: React.FC = () => {
         </div>
       </div>
       <div className="basis-1/2 w-full h-auto relative flex justify-start items-start">
-          <iframe 
-            data-tally-src="https://tally.so/embed/mVN0QJ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
-            loading="lazy" 
-            width="100%" 
-            height="727"
-            title="Contact us">
-          </iframe>
+        <iframe
+          data-tally-src="https://tally.so/embed/mVN0QJ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="100%"
+          height="727"
+          title="Contact us"
+        ></iframe>
       </div>
     </div>
   );

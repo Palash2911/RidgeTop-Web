@@ -154,7 +154,12 @@ const Header = () => {
               <span className="text-[#949494] text-[12px] ml-[7px]">
                 Toll Free
               </span>
-              <span className="text-nowrap">+61 499 475 590</span>
+              <a
+                href="tel:+61499475590"
+                className="text-nowrap hover:text-primary"
+              >
+                +61 499 475 590
+              </a>
             </span>
           </div>
           <div className="flex justify-center items-center gap-[10px]">
@@ -175,7 +180,14 @@ const Header = () => {
             </svg>
             <span className="flex flex-col justify-center items-start gap-[2px]">
               <span className="text-[#949494] text-[12px] ml-[2px]">Email</span>
-              <span className="text-nowrap">Sales@ridgetophvac.com</span>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=Sales@ridgetophvac.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-nowrap hover:text-primary"
+              >
+                Sales@ridgetophvac.com
+              </a>
             </span>
           </div>
         </div>
