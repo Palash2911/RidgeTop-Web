@@ -11,6 +11,7 @@ import {
 } from "../components/ui/Carousal";
 import Card from "./ui/Card";
 import Gallery from "./ui/Gallery";
+import RebateSection from "./ui/RebateSection";
 import Reviews from "./ui/Reviews";
 import { InteractiveHoverButton } from "./ui/SpecialButton";
 
@@ -67,6 +68,9 @@ const Landing = () => {
           </span>
         </div>
       </div>
+
+      {/* VEU rebates */}
+      <RebateSection />
 
       {/* aboutus page */}
 
