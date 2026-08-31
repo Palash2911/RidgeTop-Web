@@ -1,5 +1,6 @@
 import { ClipboardCheck, ShieldCheck, Wind, Zap } from "lucide-react";
 import { useNavigate } from "react-router";
+import rebateLogo from "../../assets/Rebate_Logo.png";
 import { cn } from "../../lib/utils";
 import { Button } from "./Button";
 
@@ -30,7 +31,13 @@ const RebateSection = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full h-auto flex flex-col justify-center items-center px-[24px] sm:px-[64px] py-[64px] sm:py-[96px] bg-gradient-to-br from-[#eaf6ff] to-[#fff4f0] gap-[40px]">
+    <div className="relative w-full h-auto flex flex-col justify-center items-center px-[24px] sm:px-[64px] py-[64px] sm:py-[96px] bg-gradient-to-br from-[#eaf6ff] to-[#fff4f0] gap-[40px]">
+      <img
+        src={rebateLogo}
+        alt="rebateM8 promo"
+        className="static mx-auto mb-[8px] w-[100px] sm:absolute sm:top-[24px] sm:left-[24px] sm:mb-0 sm:w-[110px] rounded-[20px]"
+      />
+
       <div className="w-full h-auto flex flex-col justify-center items-center gap-[8px]">
         <span className="text-[28px] sm:text-[42px] font-semibold text-center">
           Upgrade Your Comfort and Save with{" "}
